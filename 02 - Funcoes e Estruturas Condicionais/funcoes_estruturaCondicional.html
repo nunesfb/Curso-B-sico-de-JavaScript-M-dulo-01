@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="funcoes.js"></script>
+
+    <script>
+        /*
+        Colocar um <script> no head garante que ele seja executado antes de qualquer 
+            elemento ser colocado no body. Isso significa que ele garantidamente estará 
+            presente quando a página for "montada", ou seja, qualquer código que precise 
+            estar presente na hora de processar o body com certeza já estará pronto para 
+            agir. A desvantagem é que o usuário só vai ver uma página em branco até que 
+            o script         termine de executar. 
+
+        Colocar um <script> no final do body, por outro lado, permite que o conteúdo 
+            antes dele já apareça para o usuário sem ter de esperar sua execução. 
+            Isso passa a impressão de um site mais rápido, o usuário não precisa 
+            esperar cada mínimo detalhe estar pronto antes de ler o conteúdo da página. 
+            A desvantagem é que - se o seu script modifica significativamente o conteúdo 
+            e/ou sua apresentação e funcionalidade - o usuário verá uma página "estranha" 
+            e "mal formatada" antes que o script a "corrija". Da mesma forma, se um script 
+            muda o comportamento de um link ou botão, por exemplo, clicar nos mesmos antes 
+            do script executar causará um comportamento incorreto.
+        */
+
+        var texto = imprime();
+        console.log(texto);
+
+        console.log(soma(2, 5));
+
+        console.log(verificaIdade (65));
+
+        console.log(verificaValor(5,"5"));
+
+        console.log(verificaNome ("Joao"));
+
+        console.log(login ("felipes", "closed"));
+
+        diaSemana ("domingo");
+    </script>
+</body>
+
+</html>

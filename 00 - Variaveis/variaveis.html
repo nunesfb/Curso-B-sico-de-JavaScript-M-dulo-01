@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //estamos declando variaveis, isto é um comentario
+        var nome = "Felipe";
+        var idade = 29;
+        var ativo = true;
+        var salario = 1250.50;
+
+        console.log("Meu nome é " + nome + " tenho " + idade + 
+        " anos de idade, meu salário é " + salario + " o status é " + ativo);
+
+        //array
+		//estrutura de dados que armazena uma coleção de elementos de tal forma que cada um dos elementos possa ser identificado por, pelo menos, um índice ou uma chave
+        var profissoes = ["Professor", "Desenvolvedor", "Analista", "Suporte de TI"];
+        console.log(profissoes);
+        console.log(profissoes[3]);
+
+        //objeto e suas propriedades
+        var funcionario = {nome: "Felipe", idade: 28, contratado: true};
+        console.log(funcionario);
+
+        //verificar o tipo
+        console.log(typeof(nome));
+        console.log(typeof(idade));
+        console.log(typeof(salario));
+
+        //undefined (variavel sem valor, do tipo undefined)
+        var indefinido = undefined;
+        console.log(indefinido);
+
+        //vazio (variavel tem valor e tipo)
+         var vazio = "";
+        console.log(vazio);
+
+        //null (algo que nao existe, do tipo objeto)
+        var nulo = null;
+        console.log(nulo);
+
+        //operacoes em string
+        var texto = "Alguma coisa";
+        console.log(texto.length);
+        console.log(texto.toLowerCase());
+        console.log(texto.toUpperCase());
+        console.log(texto.slice(0,6));
+        console.log(texto.replace("coisa", "pessoa"));
+
+         //operacoes em numeros
+         var numero = 450.572;
+        console.log(numero.toString());
+        console.log(numero.toFixed(2));
+
+
+    </script>
+
+</body>
+
+</html>

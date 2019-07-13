@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <form action="#" name="cadastroCliente" method="POST" >
+                <div class="form-group col-md-6">
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Preencha um nome válido">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="Preencha um e-mail válido">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Preencha uma senha válida">
+                </div>
+                <!-- Valida o formulario ao clicar em salvar -->
+                <button onclick="return validar()">Salvar</button>
+            </form>
+
+    <script src="validacao.js"></script>
+</body>
+
+</html>

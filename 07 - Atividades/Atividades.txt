@@ -1,0 +1,9 @@
+1) Crie uma função para receber duas notas e calcular a média final do aluno, informando se foi aprovado (acima ou igual a 70) ou reprovado;
+
+2) Crie uma função para calcular o IMC de uma pessoa;
+
+3) Crie uma função que multiple os 10 primeiros valores positivos por 5. Faça de duas formas, usando While e For.
+
+4) Crie um array com 3 carros diferentes. Imprima ele. Faça um sort e imprima ele. Adicione um carro ao final e imprima. Adicione um carro no inicio e imprima. Remova um carro do final e imprima. Remova um carro do inicio e imprima.
+
+5) Crie um formulário que armaze o nome, idade e salário de uma pessoa, havendo uma validação em JavaScript para não ter valores vazios.
