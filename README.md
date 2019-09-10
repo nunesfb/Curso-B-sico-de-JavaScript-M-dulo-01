@@ -11,3 +11,5 @@ Tópicos abordados:
 --> Datas
 --> Validações
 --> Atividades
+
+Vídeos com as aulas: https://www.youtube.com/playlist?list=PL2hDwB8DzXGOU70un1CzAmbchSJI6jfUy
