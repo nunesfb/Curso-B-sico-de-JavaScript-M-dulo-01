@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Curso Básico de JavaScript - Módulo 03
+  Curso Básico de JavaScript - Módulo 01
 </h3>
 
 <p align="center">Curso introdutório para quem está iniciando os estudos em programação com JavaScript (Módulo 01)</p> 
